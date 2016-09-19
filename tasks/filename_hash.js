@@ -30,12 +30,11 @@ module.exports = function(grunt) {
 
     var hash = generateRandomHash();
     var opts = this.options();
-    var done = this.async();
 
     // Check files
     if (!grunt.file.exists(opts.index)) {
       console.log('med')
-      return grunt.log.error('No index file found') && done();
+      return grunt.log.error('No index file found');
     }
 
     var files = opts.files.filter(function (filepath) {

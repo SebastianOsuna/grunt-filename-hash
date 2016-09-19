@@ -1,7 +1,7 @@
 {
   "name": "grunt-filename-hash",
   "description": "Add hashes to filenames.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/sebastian/grunt-contrib-filename-hash",
   "author": {
     "name": "SebastianOsuna",
